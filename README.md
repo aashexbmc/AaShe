@@ -1,6 +1,6 @@
 AaShe
 =====
-XBMC plugin to watch vidoes from ashemaletube.com
+XBMC addon to watch vidoes from ashemaletube.com
 
 
 ==========================
