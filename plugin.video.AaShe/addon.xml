@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.AaShe"
+version="0.0.1" name="AaShe"
+provider-name="AaShe"
+>
+<requires>
+<import addon="xbmc.gui" version="2.11"/>
+<import addon="xbmc.python" version="2.0"/>
+</requires>
+
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+  </extension>
+
+<extension point="xbmc.addon.metadata">
+<summary>Watch Shemale porn videos from ashemaletube.com</summary>
+<description>
+Watch Shemale porn videos from ashemaletube.com
+</description>
+<platform>all</platform>
+</extension>
+</addon>

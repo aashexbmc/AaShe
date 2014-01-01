@@ -1,0 +1,8 @@
+<settings>
+   <category label="Sorting and Filtering">
+   	<setting id="sortBy" type="enum" label="Sort videos by" values="Date Added|Most Popular|Top Rated|Longest"/>   	
+	<setting id="videoLength" type="labelenum" label="Video length" values="All|Long|Short|Normal"/>
+	<setting id="screenSize" type="enum" label="Screen size" values="Normal|Wide Screen"/>
+	<setting id="period" type="enum" label="Period" values="Today|Yesterday|Daily|All Time"/>
+   </category>
+</settings>
