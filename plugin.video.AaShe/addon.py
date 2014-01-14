@@ -22,7 +22,7 @@ def showMainItems(localpath, handle):
 	u=localpath + "?mode=4"
 	xbmcplugin.addDirectoryItem(handle, u, li, True)
 
-	li=xbmcgui.ListItem("Categories")
+	li=xbmcgui.ListItem("Channels")
 	u=localpath + "?mode=1"
 	xbmcplugin.addDirectoryItem(handle, u, li, True)
 
@@ -45,7 +45,7 @@ def listChannels(localpath, handle):
 	
 	pattern = re.compile("<a title=\"(.+?)\" href=\"/channels/(.+?)/(.+?)/page1\.html\?sort=mw\">")
 
-	match = pattern.findall(a)
+	match = pattern.findall(response)
 	channels = []
 	
 	for title, id, name in match:
