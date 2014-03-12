@@ -4,8 +4,7 @@ version="1.1" name="AaShe"
 provider-name="AaShe"
 >
 <requires>
-<import addon="xbmc.gui" version="2.11"/>
-<import addon="xbmc.python" version="2.0"/>
+<import addon="xbmc.python" version="2.1.0"/>
 </requires>
 
   <extension point="xbmc.python.pluginsource" library="addon.py">
