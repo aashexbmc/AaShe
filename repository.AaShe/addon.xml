@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.AaShe" name="AShemaleTube.com Addon repository" version="1.0" provider-name="AaShe">
+	<extension point="xbmc.addon.repository" name="AShemaletube.com Addon repository">
+		<info compressed="false">https://raw.github.com/aashexbmc/AaShe/master/addons.xml</info>
+		<checksum>https://raw.github.com/aashexbmc/AaShe/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/aashexbmc/AaShe/raw/master/downloads</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>AShemaleTube.com Addon repository</summary>
+		<description></description>		
+		<platform>all</platform>
+	</extension>
+</addon>
